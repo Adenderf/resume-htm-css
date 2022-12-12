@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #bccbc9 ;
+}
+
+@page {
+    size: A4 portrait;
+}
+
+.contact-container {
+    margin-bottom: 30px;
+}
+/* Main Page */
+.main-page {
+    max-width: 210mm;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+/* Left Section */
+.left-section {
+    padding: 10px;
+}
+
+.intro-container {
+    padding: 10px;
+}
+
+/* Work History*/
+.left-header {
+    background-color: #0e2433;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.left-header p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left-body-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 5px;
+}
+
+.left-col2-header {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.left-col2-desc {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-style: italic;
+}
+
+.left-col2-lists {
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+}
+
+.left-col2-lists li {
+    margin-bottom: 4px;
+    margin-left: 3px; 
+}
+
+
+
+
+
+
+/* Right Section */
+.right-section {
+    padding: 5px;
+    background-color: #1c4966;
+    width: 100%;
+}
+
+/* Right Section Header */
+.section-right-header {
+    background-color: #0e2433;
+    padding: 10px;
+}
+
+.section-right-header p {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+}
+
+div.me-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img.picture-of-me {
+    width: 150px;
+    border-radius: 50%;
+}
+
+div.name-container p {
+    color: white;
+    
+}
+
+div.name p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+div.description p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+/* Intro */
+p.intro {
+    text-indent: 40px;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* Contact */
+.section-right-body {
+    padding-left: 5px;
+    padding-right: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+div.contact-body {
+    display: grid;
+    grid-template-columns: 30px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    color:lightblue;
+    width: 100%;
+ 
+    
+}
+
+div.contact-body i {
+    font-size: 18px;
+}
+
+.section-right-body p {
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+}
+
+.section-right-body p a {
+    color: white;
+    
+}
+
+
+/* Technical Skills */
+div.skill-con{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.skills-container {
+    width: 100%;
+    background-color: gray;
+}
+p.skill-desc {
+    margin: 1px;
+    font-size: 12px;
+}
+
+/* HTML */
+div.skills-container .html {
+    width: 70%;
+    background-color: yellow;
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+/* CSS */
+div.skills-container .css {
+    width: 65%;
+    background-color: rgb(220, 87, 253);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* JavaScript */
+div.skills-container .js {
+    width: 75%;
+    background-color: rgb(1, 230, 255);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* JavaScript */
+div.skills-container .mongo {
+    width: 64%;
+    background-color: rgb(1, 255, 128);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* React JS */
+div.skills-container .react {
+    width: 80%;
+    background-color: rgb(255, 186, 47);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* Express JS */
+div.skills-container .express {
+    width: 78%;
+    background-color: rgb(99, 47, 255);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* SQL */
+div.skills-container .sql {
+    width: 65%;
+    background-color: rgb(255, 47, 99);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* SQL */
+div.skills-container .php {
+    width: 40%;
+    background-color: rgb(225, 96, 36);
+    padding: 3px;
+    margin: 1px;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+/* Certificates */
+.certificate {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 8px;
+    color: white;
+}
+.certificate p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.certificate a {
+    font-size: 12px;
+    color: white;
+}
